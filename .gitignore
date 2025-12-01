@@ -1,0 +1,25 @@
+# Ignore model files
+*.pth
+*.pt
+*.pkl
+*.bin
+*.safetensors
+
+backend/best_hybrid_model_head_only.pth
+
+# Python
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+build/
+dist/
+
+# Virtual environments
+venv/
+venv310/
+
+# OS
+.DS_Store
+Thumbs.db
